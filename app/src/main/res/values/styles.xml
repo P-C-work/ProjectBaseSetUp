@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Widget.Theme.LBG.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.LBG.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="low_elevation_card" parent="CardView">
+        <item name="cardCornerRadius">@dimen/card_view_radius</item>
+        <item name="cardElevation">@dimen/card_view_flat_elevation</item>
+    </style>
+
+    <dimen name="card_view_radius">10dp</dimen>
+    <dimen name="card_view_flat_elevation">2dp</dimen>
+</resources>
